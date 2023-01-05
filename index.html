@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0896bdde20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="heade">
+        <div class="container">
+            <nav>
+                <div id="logo">
+                    <h1 style="color: red; font-size: 44px;">@</h1>
+                    <h2 style="font-size: 40px;">man</h2>
+                    <h1 style="color: red; font-size: 40px;">?</h1>
+                </div>
+                <ul id="sideMenu">
+                    <li><a href="#heade">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servicess">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closeMenu()" ></i>
+                </ul>
+                 
+                <i class="fa-solid fa-bars fas" onclick="openMnue()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>F u l l - S t a c k W e b D e v e l o p e r</p>
+                <h1>Hi, I'm <span>Aman Singh</span>
+                    <br> from Raipur</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about ------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic-3.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A Full Stack Developer who is dedicated and honest with his work and believes in
+                        hard work. <br> Loves to accept challenges and work on them with full dedication.
+                        <br>
+                        Motivated to refine skills and have experience in collaborative projects with good
+                        team communication.</p>
+                        <div class="tab-title">
+                            <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-link" onclick="opentab('experiance')">Experiance</p>
+                            <p class="tab-link" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-content active-tab" id="Skills">
+                            <ul>
+                                <li><span>Java</span><br>For DSA</li>
+                                <li><span>HTML, CSS, Js </span><br>for Frontend.</li>
+                                <li><span>Node js, MongoDB, React js</span><br> for Databases</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2022</span><br>full stack web development at Newton School</li>
+                                <li><span>2021</span><br>PGDCA from Rajiv Gandhi College</li>
+                                <li><span> 2015-2019</span><br>Bachelor Of Engineering in
+                                    Mechanical from Rungta Engineering College
+                                    Bhilai chhattisgarh </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experiance">
+                            <ul>
+                                <li><span>2022</span><br>internship at Newton School</li>
+                                <li><span>2021-2022</span><br> TGT Math and IT teacher in Achievers International School </li>
+                                <li><span>2019-2021</span><br>TGT Math and Computer Teacher in Gyansthali Public School  </li>
+                            
+                            </ul>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------services------------------- -->
+    <div id="servicess">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="servicess-list">
+                <div class="lang-tag">
+                    <i class="fa-brands fa-java"></i>
+                    <h2>java</h2>
+                    <a href="https://www.hackerrank.com/amanannisingh01">See..</a>
+                    
+                </div>
+                <div class="lang-tag">
+                    <i class="fa-brands fa-js"></i>
+                    <h2>js</h2>
+                    <a href="https://dynamic-torte-c5abfe.netlify.app/">See..</a>
+                </div>
+                <div class="lang-tag">
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <a href="https://magnificent-conkies-62e22a.netlify.app/">See..</a>
+                    
+                </div>
+                <div class="lang-tag">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <a href="https://strong-zabaione-eea113.netlify.app/">See..</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div> 
+    <!-- ----------portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list"> 
+            <div class="work">
+            <img src="images/IT image.png" alt="work">
+            <div class="layer">
+                <h3>Daily Update App</h3>
+                <p>From this app user can take News information, aware of today's weather and user can also update daily routine.</p>
+                <a href="https://magenta-parfait-7be345.netlify.app/"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/IT image.png" alt="work">
+                <div class="layer">
+                    <h3>Tip Calculater App</h3>
+                    <p>From this app user can  calculate the amount of tip.</p>
+                    <a href="https://tourmaline-mandazi-dc085a.netlify.app/"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/IT image.png" alt="work">
+                    <div class="layer">
+                        <h3>coming soon</h3>
+                        <p> on the way</p>
+                        <a href="https://magenta-parfait-7be345.netlify.app/"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    </div>    
+        </div>
+    </div>
+
+
+    <!-- ---------------contact------------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-sharp fa-solid fa-at"></i> amanannisingh01@gmail.com </p>
+                        <p> <i class="fa-solid fa-mobile-retro"></i> 8889979919</p>
+                        <div class="social-media-icon">
+                            <a href="https://www.linkedin.com/in/aman-singh-810133242/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/AmAnSingH8889979919"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <div>
+                            <a href="images/Aman Singh (IT teacher).pdf " download class="btn"> <i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter Your Email" required>
+                            <!-- <input type="tel" name="number" placeholder="Enter Your Number" required> -->
+                            <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2"> <i class="fa-solid fa-share-from-square"></i> Submit </button>
+                        </form>
+                        <span id="msg">hell</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright @man. Made <i class="fa-solid fa-heart"></i> by Aman Singh</p>
+
+            </div>
+        </div>
+    
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-link");
+        var tabContents = document.getElementsByClassName("tab-content");
+       
+        function opentab(tabName){
+            console.log(tabName);
+          for(tabLink of tabLinks){
+            tabLink.classList.remove("active-link");
+          } 
+          for(tabContent of tabContents){
+            tabContent.classList.remove("active-tab");
+          } 
+
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabName).classList.add("active-tab");;
+        // const list = document.getElementById("tabname").classList;
+        //  list.add("active-tab");
+    }
+ 
+    </script>
+    <script>
+        var  sideMenu = document.getElementById("sideMenu");
+        function openMnue(){
+            sideMenu.style.right = "0";
+         }
+        function closeMenu(){
+            sideMenu.style.right = "-200px";
+         }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwnGBN7PfT0OJIWeB6Yg1-yT4EmNb9JVNm35rAUtDY1vprWTefp34XSogZ3OkB5WCyx/exec';
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  {
+                msg.innerHTML = "Thank You For Contact Me."
+                setTimeout(function(){
+                    msg.innerHTML =" "
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
